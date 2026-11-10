@@ -1,4 +1,4 @@
-<h1 align="center">Kiran Bandaru</h1>
+<h1 align="center">Kiran Subrahamanya Sai Bandaru</h1>
 
 <p align="center">
   <b>DevOps Engineer</b> · Kubernetes · Terraform · CI/CD · GitOps · AWS &amp; Azure
