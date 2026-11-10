@@ -1,7 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img alt="Kiran Bandaru – DevOps Engineer" src="banner-light.svg" width="100%">
-</picture>
+<p align="center">
+  <img alt="Animated CI/CD pipeline run introducing Kiran Bandaru, DevOps Engineer" src="pipeline.svg" width="100%"/>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kiransai006"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge"/></a>
