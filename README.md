@@ -1,39 +1,59 @@
-<h1 align="center">Kiran Subrahamanya Sai Bandaru</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <img alt="Kiran Bandaru – DevOps Engineer" src="banner-light.svg" width="100%">
+</picture>
 
 <p align="center">
-  <b>DevOps Engineer</b> · Kubernetes · Terraform · CI/CD · GitOps · AWS &amp; Azure
-  <br/>
-  Dublin, Ireland · Open to DevOps, Platform and SRE roles across Ireland and the EU
+  <a href="https://www.linkedin.com/in/kiransai006"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge"/></a>
+  <a href="mailto:kiranssb23@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <img alt="Open to work" src="https://img.shields.io/badge/Open%20to-DevOps%20%7C%20Platform%20%7C%20SRE-2EA44F?style=for-the-badge"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kiransai006"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-kiransai006-0A66C2?style=flat-square"/></a>
-  <a href="mailto:kiranssb23@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-kiranssb23%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <img alt="Location" src="https://img.shields.io/badge/Based%20in-Dublin%2C%20Ireland-169B62?style=flat-square"/>
+  <b>I build the path from <code>git push</code> to production – and the monitoring that proves it works.</b>
 </p>
 
 ---
 
-## About
+### About me
 
-- DevOps engineer with about 4 years in cloud and platform roles: 3+ years at **Cognizant** on the RELX (LexisNexis) account, and before that Cloud Support Engineer at **Debots**, Hyderabad
-- I own the delivery path end to end: reusable CI/CD pipelines, infrastructure as code, Kubernetes platforms on AKS and EKS, GitOps releases and the monitoring that tells us when something breaks
-- MSc in Computing Science, Griffith College Dublin (2026) · BTech in Computer Science (2021)
-- Current focus: platform engineering, software supply-chain security and SRE practice (SLOs, on-call, DORA metrics)
+- **~4 years** in cloud and DevOps engineering: 3+ years at **Cognizant** on the RELX (LexisNexis) account, and before that **Cloud Support Engineer** at Debots, Hyderabad
+- I design reusable CI/CD pipelines, run Kubernetes on **AKS** and **EKS**, manage infrastructure with **Terraform** and **Ansible**, and release through **GitOps**
+- **MSc Computing Science**, Griffith College Dublin (2026) · **BTech Computer Science** (2021)
+- **Now building:** SRE portfolio projects – SLOs, alerting and runbooks
+- **Looking for:** DevOps, Platform or SRE roles in Ireland and the EU
 
-## What I've delivered at work
+### Experience
 
-- **CI/CD at scale** – built reusable pipeline templates in Jenkins, GitHub Actions and Azure DevOps that other teams adopted; added caching and parallel jobs to speed up builds; set up per-branch preview environments
-- **Kubernetes platforms** – provisioned and ran AKS and EKS clusters with Terraform; shipped workloads with Helm and ArgoCD, including blue/green releases
-- **Security in the pipeline** – policy-as-code checks, secrets management and container image scanning built into delivery, not bolted on after
-- **Operations** – Prometheus, Grafana, ELK and Loki for observability; moved alerting to log-based signals; on-call rotation, runbooks and automated ITIL change requests
-- **People** – mentored junior engineers and tracked DORA metrics to show where delivery was slowing down
-- **Cloud foundations (Debots)** – AWS deployments with reusable Terraform modules for EC2, S3, VPC and IAM; Jenkins pipelines integrated with GitLab; CloudWatch monitoring; Git branching and code review
+| Role | Company | Period |
+|---|---|---|
+| **DevOps Engineer** | Cognizant · client RELX (LexisNexis) | Sep 2021 – Jan 2025 |
+| **Cloud Support Engineer** | Debots, Hyderabad | Jan 2021 – Sep 2021 |
 
-## Featured project · OmniShop Enterprise Platform
+<details>
+<summary><b>What I delivered</b> (click to expand)</summary>
+<br/>
 
-A microservices e-commerce platform I built to show the full path from `git push` to a signed, scanned, monitored deployment on Kubernetes.
-**Repo:** [OmniShop-Enterprise-Platform](https://github.com/Kiransai006/OmniShop-Enterprise-Platform-main)
+- **CI/CD at scale** – reusable pipeline templates in Jenkins, GitHub Actions and Azure DevOps adopted by other teams; caching and parallel jobs to speed up builds; per-branch preview environments
+- **Kubernetes platforms** – AKS and EKS clusters provisioned with Terraform; workloads shipped with Helm and ArgoCD, including blue/green releases
+- **Security in the pipeline** – policy-as-code checks, secrets management and container image scanning built into delivery
+- **Operations** – Prometheus, Grafana, ELK and Loki; log-based alerting; on-call rotation, runbooks and automated ITIL change requests
+- **People** – mentored junior engineers; tracked DORA metrics to find delivery bottlenecks
+- **Cloud foundations (Debots)** – AWS deployments with reusable Terraform modules for EC2, S3, VPC and IAM; Jenkins pipelines integrated with GitLab; CloudWatch monitoring
+
+</details>
+
+---
+
+### Featured project · OmniShop Enterprise Platform
+
+<a href="https://github.com/Kiransai006/OmniShop-Enterprise-Platform-main"><img alt="View repo" src="https://img.shields.io/badge/View%20repo-OmniShop-181717?style=flat-square&logo=github"/></a>
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![EKS](https://img.shields.io/badge/AWS%20EKS-232F3E?style=flat-square)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+A microservices e-commerce platform that takes code from commit to a **scanned, signed and monitored** deployment on Kubernetes.
 
 ```mermaid
 flowchart LR
@@ -47,41 +67,58 @@ flowchart LR
     F --> M["Prometheus + Grafana"]
 ```
 
-- **Infrastructure as code** – Terraform for VPC, EKS and IAM, with remote state in S3 and DynamoDB state locking
-- **Keyless CI** – GitHub Actions authenticates to AWS through OIDC, so no long-lived access keys sit in the repo
-- **Supply-chain security** – every image is scanned with Trivy and signed with Cosign before it reaches the registry
-- **GitOps** – ArgoCD syncs one Helm chart across dev, stage and prod
-- **Observability** – Prometheus and Grafana dashboards, with a load generator feeding live traffic
-- **Cost control** – a Python (boto3) teardown script removes every resource after a test run
-- **Runs locally** – `docker compose up --build` brings up the full stack in about two minutes, no AWS account needed
-
-`React` `Flask` `Docker` `Kubernetes` `Helm` `Terraform` `ArgoCD` `GitHub Actions` `Trivy` `Cosign` `Prometheus` `Grafana` `AWS EKS`
-
-## Tech stack
-
-| Area | Tools |
+| | |
 |---|---|
-| **Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) |
-| **Containers** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) |
-| **IaC &amp; config** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat-square) |
-| **CI/CD** | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) |
-| **Observability** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![ELK](https://img.shields.io/badge/ELK%20Stack-005571?style=flat-square&logo=elasticstack&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) |
-| **Security** | ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square) ![Cosign](https://img.shields.io/badge/Cosign-4B32C3?style=flat-square) ![Policy as Code](https://img.shields.io/badge/Policy%20as%20Code-555555?style=flat-square) |
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square) |
-| **Data &amp; messaging** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
-| **Platform** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Infrastructure** | Terraform for VPC, EKS and IAM · remote state in S3 with DynamoDB locking |
+| **Keyless CI** | GitHub Actions authenticates to AWS with OIDC – no long-lived keys |
+| **Supply chain** | Every image scanned with Trivy and signed with Cosign |
+| **GitOps** | ArgoCD syncs one Helm chart across dev, stage and prod |
+| **Observability** | Prometheus and Grafana, fed by a synthetic load generator |
+| **Cost control** | Python (boto3) teardown script removes every resource after testing |
+| **Try it** | `docker compose up --build` runs the full stack locally in ~2 minutes |
 
-## Certifications
+---
 
-- Microsoft Certified: Azure Fundamentals
-- Microsoft Certified: Azure Data Fundamentals
-- AWS Certified Cloud Practitioner
+### Tech stack
 
-Verified credentials: [Microsoft Learn profile](https://learn.microsoft.com/en-us/users/kiransubrahamanyasaibandarucogniza-1028/)
+<p align="center">
+  <img alt="Core stack" src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,ansible,githubactions,jenkins,gitlab,prometheus,grafana,linux,bash,python,go,git,postgres,mysql,mongodb,redis&perline=11"/>
+</p>
+
+<p align="center">
+  <img alt="Helm" src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"/>
+  <img alt="ArgoCD" src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
+  <img alt="Azure DevOps" src="https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square"/>
+  <img alt="CloudFormation" src="https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat-square"/>
+  <img alt="ELK" src="https://img.shields.io/badge/ELK%20Stack-005571?style=flat-square&logo=elasticstack&logoColor=white"/>
+  <img alt="Loki" src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+  <img alt="Trivy" src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square"/>
+  <img alt="Cosign" src="https://img.shields.io/badge/Cosign-4B32C3?style=flat-square"/>
+  <img alt="Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+  <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square"/>
+</p>
+
+---
+
+### How I work
+
+- **Everything in Git** – infrastructure, pipelines and config are reviewed and versioned like application code
+- **Security early** – scanning, signing and policy checks run in the pipeline, not after release
+- **Done means observable** – a service isn't finished until it has dashboards, alerts and a runbook
+- **Templates over tickets** – reusable pipelines let teams ship without waiting on DevOps
+
+---
+
+### Certifications
+
+![Azure Fundamentals](https://img.shields.io/badge/Microsoft-Azure%20Fundamentals-0078D4?style=flat-square)
+![Azure Data Fundamentals](https://img.shields.io/badge/Microsoft-Azure%20Data%20Fundamentals-0078D4?style=flat-square)
+![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=flat-square)
+
+Verify: [Microsoft Learn profile](https://learn.microsoft.com/en-us/users/kiransubrahamanyasaibandarucogniza-1028/)
 
 ---
 
 <p align="center">
-  Open to DevOps, Platform and SRE roles in Ireland and the EU.<br/>
-  Happy to talk CI/CD design, Kubernetes platforms and GitOps – <a href="https://www.linkedin.com/in/kiransai006">connect on LinkedIn</a>.
+  <sub>Open to DevOps, Platform and SRE roles in Ireland and the EU · <a href="https://www.linkedin.com/in/kiransai006">Let's talk on LinkedIn</a></sub>
 </p>
