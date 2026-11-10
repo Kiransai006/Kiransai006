@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="462" viewBox="0 0 960 462" role="img" aria-label="Animated CI/CD pipeline run introducing Kiran Bandaru, DevOps Engineer">
+<style>
+.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.spin{transform-box:fill-box;transform-origin:0% 100%;animation:sp 0.8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.prog{transform-box:fill-box;transform-origin:left center;animation:prog 15.0s linear infinite}
+.cur{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+@keyframes p0{0%,0.00%{opacity:0}0.00%,5.33%{opacity:1}5.40%,100%{opacity:0}}@keyframes r0{0%,5.27%{opacity:0}5.33%,11.33%{opacity:1}11.40%,100%{opacity:0}}@keyframes d0{0%,11.27%{opacity:0}11.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j0{0%,5.27%{opacity:0}5.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t0{0%,11.27%{opacity:0}11.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u0{0%,11.27%{opacity:0}11.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes p1{0%,0.00%{opacity:0}0.00%,14.00%{opacity:1}14.07%,100%{opacity:0}}@keyframes r1{0%,13.93%{opacity:0}14.00%,20.00%{opacity:1}20.07%,100%{opacity:0}}@keyframes d1{0%,19.93%{opacity:0}20.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j1{0%,13.93%{opacity:0}14.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t1{0%,19.93%{opacity:0}20.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u1{0%,19.93%{opacity:0}20.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes p2{0%,0.00%{opacity:0}0.00%,22.67%{opacity:1}22.73%,100%{opacity:0}}@keyframes r2{0%,22.60%{opacity:0}22.67%,28.67%{opacity:1}28.73%,100%{opacity:0}}@keyframes d2{0%,28.60%{opacity:0}28.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j2{0%,22.60%{opacity:0}22.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t2{0%,28.60%{opacity:0}28.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u2{0%,28.60%{opacity:0}28.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes p3{0%,0.00%{opacity:0}0.00%,31.33%{opacity:1}31.40%,100%{opacity:0}}@keyframes r3{0%,31.27%{opacity:0}31.33%,37.33%{opacity:1}37.40%,100%{opacity:0}}@keyframes d3{0%,37.27%{opacity:0}37.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j3{0%,31.27%{opacity:0}31.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t3{0%,37.27%{opacity:0}37.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u3{0%,37.27%{opacity:0}37.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes p4{0%,0.00%{opacity:0}0.00%,40.00%{opacity:1}40.07%,100%{opacity:0}}@keyframes r4{0%,39.93%{opacity:0}40.00%,46.00%{opacity:1}46.07%,100%{opacity:0}}@keyframes d4{0%,45.93%{opacity:0}46.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j4{0%,39.93%{opacity:0}40.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t4{0%,45.93%{opacity:0}46.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u4{0%,45.93%{opacity:0}46.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes p5{0%,0.00%{opacity:0}0.00%,48.67%{opacity:1}48.73%,100%{opacity:0}}@keyframes r5{0%,48.60%{opacity:0}48.67%,54.67%{opacity:1}54.73%,100%{opacity:0}}@keyframes d5{0%,54.60%{opacity:0}54.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j5{0%,48.60%{opacity:0}48.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t5{0%,54.60%{opacity:0}54.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u5{0%,54.60%{opacity:0}54.67%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes p6{0%,0.00%{opacity:0}0.00%,57.33%{opacity:1}57.40%,100%{opacity:0}}@keyframes r6{0%,57.27%{opacity:0}57.33%,63.33%{opacity:1}63.40%,100%{opacity:0}}@keyframes d6{0%,63.27%{opacity:0}63.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes j6{0%,57.27%{opacity:0}57.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes t6{0%,63.27%{opacity:0}63.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes u6{0%,63.27%{opacity:0}63.33%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes prog{0%,5.33%{transform:scaleX(0)}66.00%,93.33%{transform:scaleX(1)}93.40%,100%{transform:scaleX(0)}}@keyframes st1{0%,0.00%{opacity:0}0.00%,66.00%{opacity:1}66.07%,100%{opacity:0}}@keyframes st2{0%,65.93%{opacity:0}66.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}@keyframes ft{0%,67.93%{opacity:0}68.00%,93.33%{opacity:1}93.40%,100%{opacity:0}}
+</style>
+<rect x="0.5" y="0.5" width="959" height="461" rx="12" fill="#0D1117" stroke="#30363D"/>
+<path d="M0.5 12.5 a12 12 0 0 1 12 -12 h935 a12 12 0 0 1 12 12 v32 h-959 z" fill="#161B22" stroke="#30363D"/>
+<circle cx="26" cy="23" r="6" fill="#FF5F57"/><circle cx="46" cy="23" r="6" fill="#FEBC2E"/><circle cx="66" cy="23" r="6" fill="#28C840"/>
+<text x="480.0" y="28" text-anchor="middle" class="mono" font-size="13" fill="#8B949E">Kiransai006 / .github / workflows / career.yml</text>
+<text x="40" y="82" class="sans" font-size="20" font-weight="700" fill="#E6EDF3">Build &amp; deploy: Kiran Bandaru</text>
+<text x="40" y="106" class="mono" font-size="13" fill="#8B949E">run #2026 · push to <tspan fill="#58A6FF">main</tspan> · ireland-eu</text>
+<g style="animation:st1 15.0s linear infinite"><rect x="790" y="66" width="130" height="26" rx="13" fill="none" stroke="#D29922"/><text x="855" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#D29922">● In progress</text></g>
+<g style="animation:st2 15.0s linear infinite"><rect x="790" y="66" width="130" height="26" rx="13" fill="#3FB950" fill-opacity="0.15" stroke="#3FB950"/><text x="855" y="84" text-anchor="middle" class="sans" font-size="13" font-weight="600" fill="#3FB950">✓ Success</text></g>
+<rect x="40" y="120" width="880" height="4" rx="2" fill="#30363D"/>
+<rect class="prog" x="40" y="120" width="880" height="4" rx="2" fill="#3FB950"/>
+<g style="animation:p0 15.0s linear infinite"><circle cx="48" cy="145" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r0 15.0s linear infinite"><circle cx="48" cy="145" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 138 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d0 15.0s linear infinite"><circle cx="48" cy="145" r="8" fill="#3FB950"/><path d="M44.5 145 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="150" class="mono" font-size="15" fill="#8B949E">checkout</text>
+<text x="72" y="150" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j0 15.0s linear infinite">checkout</text>
+<text x="200" y="150" class="sans" font-size="15" fill="#E6EDF3" style="animation:t0 15.0s linear infinite">Kiran Bandaru · DevOps Engineer · Dublin, Ireland</text>
+<text x="920" y="150" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u0 15.0s linear infinite">1s</text>
+<g style="animation:p1 15.0s linear infinite"><circle cx="48" cy="177" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r1 15.0s linear infinite"><circle cx="48" cy="177" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 170 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d1 15.0s linear infinite"><circle cx="48" cy="177" r="8" fill="#3FB950"/><path d="M44.5 177 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="182" class="mono" font-size="15" fill="#8B949E">build</text>
+<text x="72" y="182" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j1 15.0s linear infinite">build</text>
+<text x="200" y="182" class="sans" font-size="15" fill="#E6EDF3" style="animation:t1 15.0s linear infinite">~4 yrs · Cognizant (RELX / LexisNexis) · Debots</text>
+<text x="920" y="182" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u1 15.0s linear infinite">2s</text>
+<g style="animation:p2 15.0s linear infinite"><circle cx="48" cy="209" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r2 15.0s linear infinite"><circle cx="48" cy="209" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 202 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d2 15.0s linear infinite"><circle cx="48" cy="209" r="8" fill="#3FB950"/><path d="M44.5 209 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="214" class="mono" font-size="15" fill="#8B949E">provision</text>
+<text x="72" y="214" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j2 15.0s linear infinite">provision</text>
+<text x="200" y="214" class="sans" font-size="15" fill="#E6EDF3" style="animation:t2 15.0s linear infinite">Terraform · Ansible · AWS · Azure · GCP</text>
+<text x="920" y="214" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u2 15.0s linear infinite">3s</text>
+<g style="animation:p3 15.0s linear infinite"><circle cx="48" cy="241" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r3 15.0s linear infinite"><circle cx="48" cy="241" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 234 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d3 15.0s linear infinite"><circle cx="48" cy="241" r="8" fill="#3FB950"/><path d="M44.5 241 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="246" class="mono" font-size="15" fill="#8B949E">package</text>
+<text x="72" y="246" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j3 15.0s linear infinite">package</text>
+<text x="200" y="246" class="sans" font-size="15" fill="#E6EDF3" style="animation:t3 15.0s linear infinite">Docker · Kubernetes (AKS, EKS) · Helm</text>
+<text x="920" y="246" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u3 15.0s linear infinite">2s</text>
+<g style="animation:p4 15.0s linear infinite"><circle cx="48" cy="273" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r4 15.0s linear infinite"><circle cx="48" cy="273" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 266 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d4 15.0s linear infinite"><circle cx="48" cy="273" r="8" fill="#3FB950"/><path d="M44.5 273 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="278" class="mono" font-size="15" fill="#8B949E">scan</text>
+<text x="72" y="278" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j4 15.0s linear infinite">scan</text>
+<text x="200" y="278" class="sans" font-size="15" fill="#E6EDF3" style="animation:t4 15.0s linear infinite">Trivy · Cosign · policy-as-code · secrets mgmt</text>
+<text x="920" y="278" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u4 15.0s linear infinite">1s</text>
+<g style="animation:p5 15.0s linear infinite"><circle cx="48" cy="305" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r5 15.0s linear infinite"><circle cx="48" cy="305" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 298 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d5 15.0s linear infinite"><circle cx="48" cy="305" r="8" fill="#3FB950"/><path d="M44.5 305 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="310" class="mono" font-size="15" fill="#8B949E">deploy</text>
+<text x="72" y="310" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j5 15.0s linear infinite">deploy</text>
+<text x="200" y="310" class="sans" font-size="15" fill="#E6EDF3" style="animation:t5 15.0s linear infinite">GitHub Actions · Jenkins · Azure DevOps · ArgoCD</text>
+<text x="920" y="310" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u5 15.0s linear infinite">4s</text>
+<g style="animation:p6 15.0s linear infinite"><circle cx="48" cy="337" r="7" fill="none" stroke="#30363D" stroke-width="2"/></g>
+<g style="animation:r6 15.0s linear infinite"><circle cx="48" cy="337" r="7" fill="none" stroke="#D29922" stroke-opacity="0.3" stroke-width="2"/><path class="spin" d="M48 330 a7 7 0 0 1 7 7" fill="none" stroke="#D29922" stroke-width="2" stroke-linecap="round"/></g>
+<g style="animation:d6 15.0s linear infinite"><circle cx="48" cy="337" r="8" fill="#3FB950"/><path d="M44.5 337 l2.5 2.5 l4.5 -5" fill="none" stroke="#0D1117" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="72" y="342" class="mono" font-size="15" fill="#8B949E">observe</text>
+<text x="72" y="342" class="mono" font-size="15" font-weight="700" fill="#E6EDF3" style="animation:j6 15.0s linear infinite">observe</text>
+<text x="200" y="342" class="sans" font-size="15" fill="#E6EDF3" style="animation:t6 15.0s linear infinite">Prometheus · Grafana · ELK · Loki · on-call</text>
+<text x="920" y="342" text-anchor="end" class="mono" font-size="13" fill="#8B949E" style="animation:u6 15.0s linear infinite">2s</text>
+<line x1="40" y1="376" x2="920" y2="376" stroke="#30363D"/>
+<g style="animation:ft 15.0s linear infinite"><text x="40" y="404" class="mono" font-size="15" fill="#8B949E"><tspan fill="#3FB950">$</tspan> kubectl get candidate kiran</text>
+<text x="40" y="428" class="mono" font-size="14" fill="#E6EDF3">READY <tspan fill="#3FB950">1/1</tspan>   STATUS <tspan fill="#3FB950">Open-to-work</tspan>   ROLES DevOps · Platform · SRE<tspan class="cur" fill="#3FB950"> █</tspan></text></g>
+</svg>
